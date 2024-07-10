@@ -6,7 +6,7 @@ Genie is a magical command-line tool that harnesses the power of Google's Gemini
 
 ## ✨ Features
 
-- 🤖 Powered by Google's Gemini AI for accurate command suggestions
+- 🤖 Powered by Google's Gemini AI for (mostly) accurate command suggestions
 - 💬 Use natural language to get command-line suggestions
 - 🚀 Execute suggested commands directly from the tool
 - 🎨 Optional pretty output for enhanced readability
@@ -56,7 +56,7 @@ Genie will suggest a command, and you can choose to execute it or not.
 ## 📋 Requirements
 
 - Python 3.6+
-- `requests` library (installed automatically during setup)
+- `requests` library (you'll have to install it manually)
 - Google Gemini API key (obtainable from [Google AI Studio](https://makersuite.google.com/app/apikey))
 
 ## 🔐 Security

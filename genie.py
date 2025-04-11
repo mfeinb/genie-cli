@@ -30,7 +30,7 @@ def load_config():
         sys.exit(1)
 
 def get_ai_response(api_key, prompt):
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
     headers = {
         "Content-Type": "application/json",
         "x-goog-api-key": api_key
